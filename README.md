@@ -22,3 +22,10 @@ Sample Data | Sample Output
 [12,15,18,21,23,1000] | false
 [250,19,17,15,13,11,10,9,6,3,2,1,-455] | true
 [9,10,-8,10000,-5000,1000] | false
+
+### Testing ###
+
+If you want to run the tests yourself before committing and pushing to GitHub you can do the following steps.
+
+1. In the REPL window press Ctrl-Shift-S to open the shell window.
+2. In the shell window type "mvn test" to run the tests.
