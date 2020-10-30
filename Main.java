@@ -6,7 +6,16 @@ class Main {
    * @return true if the array constantly decreases, false otherwise
    * */
   public static boolean isDecreasing(int[] numArray){
-    
+    if(numArray.length == 1)
+    {
+      return true;
+    }
+    for(int i = 0; i < numArray[i + 1])
+    {
+      return false;
+    }
+  }
+  return true;
   }
   
   public static void main(String[] args) {
